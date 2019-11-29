@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<style type="text/css">
+
+		*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #ddd;
+}
+		.menu{
+	background-color: #252850;
+	padding: 20px;
+
+}
+
+.img_inicio{
+	position:relative;
+	top: 10px;
+	margin: auto;
+	width: 100%;
+	height: 300px;
+	background-image: url(imagenes/head.jpg);
+	background-size: 100% 100%;
+	overflow: hidden;
+	color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px skyblue;
+}
+
+
+.img_inicio:before{
+     position: absolute;
+    top: 290px;
+    left: 20px;
+content: "";
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    transition: all 0.6s ease;
+    
+}
+
+.img_inicio:after{
+       position: absolute;
+    top: 10px;
+    right: 20px;
+content: "";
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    transition: all 0.6s ease;
+}
+
+
+.img_inicio:hover:before{
+    width: 90%;
+}
+
+.img_inicio:hover:after{
+    width: 90%;
+}
+
+
+.img_inicio:hover{
+	background-size: 110% 110%;
+	transition: all .3s;
+}
+
+.img_inicio:hover h1,.img_inicio:hover p{
+	transform: translateX(0%);
+	transition: all .3s;
+}
+
+.img_inicio h1{
+	position: relative;
+	left: 90px;
+	top: 100px;
+	transform: translateX(-130%);
+	}
+
+.img_inicio  p{
+	position: relative;
+	
+	left: 90px;
+	top: 100px;
+	transform: translateX(130%);
+
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+.menu ul li a:hover{
+	background-color: #5283C9;
+
+}
+
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	text-align: center;
+
+}
+
+
+
+#container{
+			background-color: white;
+			margin:10px 10px 10px 10px;
+			width: 800px;
+			padding: 20px;
+			float: left;	
+			border-radius: 20px;
+
+		}
+
+article{
+	padding-top: 20px;
+	column-count: 3;
+	column-gap: 20px;
+	column-rule: solid 1px #ccc;
+}
+
+#columna{
+	float: left;
+	width: 350px;
+	margin: 20px 20px;
+	padding: 20px;
+	background: #3C80E1;
+	color: #DED8DF;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px skyblue;
+}
+
+aside h2{
+	color: black;
+
+}
+
+#pie{
+	background-color: #252850;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+
+
+
+	</style>
+
+
+
+<nav class="menu">
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Contactos</a></li>
+			<li><a href="galeria.html">Galeria (PDF)</a></li>
+			
+		</ul>
+	</nav>
+
+	
+
+
+
+	<div id="container">
+
+		<div class=img_inicio> 
+			<h1>Axel Papi Rey ♥</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			</p>
+
+		</div>
+
+     
+    
+ 
+       
+       
+        
+
+
+		<article>
+		
+		<h2>Titulo</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<img src="imagenes/dentro.jpg" width="100%" style="padding: 5px auto; border-radius: 20px;">
+
+		<h2>Titulo</h2>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+		<h2>Titulo</h2>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+	</div>
+
+	<aside id="columna">
+		<h2>Titulo</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</aside>
+
+	<aside id="columna">
+		<h2>Titulo</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</aside>
+	
+	
+	
+
+	<footer id="pie">
+		Derechos reservados Axel F.S.C Copy ;2019-2020
+	</footer>
+
+
+
+</body>
+</html>

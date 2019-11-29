@@ -1,0 +1,55 @@
+@keyframes fondo{
+	0%{background-color: #00FF7F;}
+	40%{background-color: #6A5ACD ;}
+	80%{background-color: #FF4500  ;}
+	90%{background-color:  #C71585 ;}
+	100%{background-color: #4682B4 ;}
+}	
+
+
+
+
+body{
+	animation-name: fondo;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+
+.container{
+	
+	margin-top: 10%;
+	border-radius: 10px;
+	width: 600px;
+	height: 300px;
+	color: white;
+	box-shadow: 0 295px lightblue inset,
+				100px 0 yellow inset,
+				200px 0 blue inset,
+				300px 0 pink inset,
+				400px 0 green inset,
+				500px 0 tomato inset,
+				600px 0 orange inset;
+}
+
+.container h5{
+	text-align: center;
+}
+
+.input-field{
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.btn{
+	border-radius: 10px;
+	animation-name: fondo;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+form{
+	color: white;
+}
+
